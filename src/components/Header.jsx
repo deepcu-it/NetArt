@@ -1,8 +1,9 @@
 import React from "react";
+import Logo from "../../Netart-Test/asserts/logo.png"
 
 const Header=() =>{
     return (
-        <img className="header" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDeBOwIKbP9Spb53pe8pjpGkId0ecJfrgnlw&usqp=CAU" alt="logo" />
+        <img className="header" src={Logo} alt="logo" />
     );
 }
 
