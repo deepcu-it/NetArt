@@ -4,7 +4,7 @@ const WinnerPhoto = () => {
     return (
         <div className='winner-photo'>
             <div>
-                <img className='image1' src="NetArt-Test\NetArt-Test\asserts\1.png" alt="winner-photo" />
+                <img className='image1' src="../Netart-Test/asserts/1.png" alt="winner-photo" />
             </div>
             <div>
                 <div className='winner-photo-text-title'>
@@ -17,7 +17,7 @@ const WinnerPhoto = () => {
 
                     </ul>
                 </div>
-                <img className='image2' src="NetArt-Test\NetArt-Test\asserts\2.png" alt="winner-photo" />
+                <img className='image2' src="../Netart-Test/asserts/2.png" alt="winner-photo" />
                 <div className='winner-photo-text-title'>
                 Government of India has awarded the <b>"National Energy Conservation Award 2018"</b>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
                 </div>

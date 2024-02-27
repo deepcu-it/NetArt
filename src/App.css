@@ -80,6 +80,10 @@
   color: white;
   min-height: 100px;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 600px ){
   .image1{
     max-height: 300px;
