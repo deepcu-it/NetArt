@@ -1,15 +1,16 @@
 import React from "react";
-import CallIcon from '@mui/icons-material/Call';
-import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-import LanguageIcon from '@mui/icons-material/Language';
+import { FaPhone } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <div className="footer">
-           <div><CallIcon/><span>Tollfree 1800 200 1234</span></div>
-           <div><FacebookRoundedIcon/><span><a>www.facebook.com/cripumps</a></span></div>
-           <div><LanguageIcon/><span><a>www.crigroups.com </a></span></div>
+           <div><FaPhone/><span>Tollfree 1800 200 1234</span></div>
+           <div><FaFacebookSquare/><span><a href="https://www.facebook.com/cripumps">www.facebook.com/cripumps</a></span></div>
+           <div><FaGlobe/><span><a href="https://www.crigroups.com">www.crigroups.com</a></span></div>
         </div>
     );
 };
 
-export default Footer
+export default Footer;
