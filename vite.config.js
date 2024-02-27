@@ -4,7 +4,7 @@ export default {
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@mui/icons-material/Call']
+      external: ['@mui/icons-material/Call', '@mui/icons-material/FacebookRounded', '@mui/icons-material/Language']
     }
   }
 }
